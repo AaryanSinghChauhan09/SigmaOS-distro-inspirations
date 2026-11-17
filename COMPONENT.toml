@@ -3,12 +3,12 @@ name = "SigmaOS-distro-inspirations"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "distro-inspirations component"
+description = "SigmaOS distro inspiration sources and comparisons"
 upstream = []
 
 [contract]
 provides = ["component"]
-depends_on = []
+depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
